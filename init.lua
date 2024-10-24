@@ -17,3 +17,11 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- Enable mouse mode, can be useful for resizing splits for example!
+-- vim.opt.mouse = 'a'
+vim.opt.mouse = ""
+-- Save undo history
+vim.opt.undofile = true
+vim.o.swapfile = false
+vim.o.backup = false
